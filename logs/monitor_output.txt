@@ -1,0 +1,28 @@
+Start Startagy
+🔄 מריץ אסטרטגיה על סימבול בודד מתוך config.py: BTCUSDT
+
+🚀 מריץ אסטרטגיה על BTCUSDT
+⚠️ לא נמצאו נתונים כלל.
+❌ אין נתונים עבור BTCUSDT — מדלג.
+✅ נשמרו סיגנלים לקובץ strategy_signals_output.csv
+Traceback (most recent call last):
+  File "C:\Users\LiorSw\PycharmProjects\AutosignalX-history\st_or_tp.py", line 55, in <module>
+    df = pd.read_csv(SIGNALS_FILE)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LiorSw\PycharmProjects\AutosignalX-history\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LiorSw\PycharmProjects\AutosignalX-history\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LiorSw\PycharmProjects\AutosignalX-history\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LiorSw\PycharmProjects\AutosignalX-history\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LiorSw\PycharmProjects\AutosignalX-history\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
