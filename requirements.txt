@@ -3,3 +3,5 @@ requests
 pytz
 tqdm
 ta
+streamlit
+plotly
