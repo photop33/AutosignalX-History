@@ -1,0 +1,16 @@
+SCAN_FROM = "2025-05-15 01:00"
+SCAN_TO = "2025-05-15 05:00"
+INTERVAL = "1h"
+VOLATILITY_THRESHOLD = 0.0
+PCT_CHANGE_THRESHOLD = 0.06
+MIN_VOLUME = 50000
+FILTER_MODE = "AND"
+symbol = "BTCUSDT"
+interval = "5m"
+start_time_str = "2024-05-27 00:00"
+end_time_str = "2024-05-24 23:59"
+INDICATOR_CONDITIONS = {'rsi': {'oversold': 30, 'overbought': 70}, 'macd': {'signal_diff_min': 0.0}}
+SL_MULTIPLIER = 1.5
+RR_RATIO = 2.0
+ACTIVE_STRATEGIES = ['strategy_rsi_macd', 'strategy_bollinger_macd', 'strategy_breakout_volume', 'strategy_breakout', 'strategy_candlestick', 'strategy_supertrend_macd', 'strategy_vwap_bounce']
+STRATEGY_THRESHOLDS = {'strategy_rsi_macd': 1, 'strategy_bollinger_macd': 1, 'strategy_breakout_volume': 1, 'strategy_breakout': 1, 'strategy_candlestick': 1, 'strategy_supertrend_macd': 1, 'strategy_vwap_bounce': 1}

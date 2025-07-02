@@ -1,0 +1,3 @@
+﻿symbol,strategy,score,reasons,time,interval,entry_price,SL,TP,result,cross_line_time,PnL_%
+1000SATSUSDT,strategy_breakout_volume,1,פריצה מעל התנגדות אחרונה,2025-05-28 03:00:00,1d,5.69e-05,,,Still Open,,
+1000SATSFDUSD,strategy_breakout_volume,1,פריצה מעל התנגדות אחרונה,2025-05-28 03:00:00,1d,5.67e-05,,,Still Open,,
